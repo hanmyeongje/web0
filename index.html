@@ -5,6 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to myeong je's Site</title>
+    <style>
+        *{font-family:"맑은고딕"Arial, Helvetica, sans-serif;}
+        header h1{
+            font-size: x-large;
+        }
+        a{text-decoration: none;}
+        ul{list-style-type: none;}
+        nav ul{
+            text-align: center;
+            border-top: 2px solid indigo;
+            border-bottom: 2px solid indigo;
+            padding: 15px 0px;
+             }
+             nav ul li{
+                 display: inline;
+                 text-transform: uppercase;
+                 letter-spacing: 5px;
+                 padding: 15px 25pxs;
+             }
+             nav ul li :hover{
+                 background-color: indigo;
+             }
+            nav ul a:hover{
+                color: white;
+            }
+    </style>
 </head>
 <body>
     <header>
@@ -26,7 +52,7 @@
            <audio src="./media/music01.mp3" controls>
             지원하지 않는 브라우저 입니다. 
         </audio>
-            <h2>북금곰을 살려요~~</h2>
+            <h2 style="font-size: x-large; color: indigo;">북금곰을 살려요~~</h2>
             <video src="./media/movie.mp4" controls></video>
             <iframe width="798" height="444" src="https://www.youtube.com/embed/q2NEYjYHSNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <hr>
@@ -69,7 +95,14 @@
             <a href="./start.html">연습문서</a><br>
             <a href="#profile">나의 프로필</a>
         </div>
+             <div id="login"></div>
+            <form action="#"></form>
+            아이디 : <input type="text"name="id">
+            비밀번호 : <input type="password"name="password"> 
+            <input type="submit">
+            <input type="reset">
     </section>
+    
     <footer>
         <div id="Copyright">주소와 저작권</div>
         <div id="SNS">트위터, 인스타그램, 페이스북 주소</div>
